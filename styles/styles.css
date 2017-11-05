@@ -405,7 +405,7 @@ span.text-content {
     display: none;
 }
 .nav .name {
-    font-weight: 600;
+    font-weight: 400;
 }
 @media (min-width:768px) {
     .nav {
@@ -441,7 +441,7 @@ span.text-content {
     position: relative;
 }
 @media (min-width:1025px) {
-    .andlev__home .row .grid: hover .project-text {
+    .andlev__home .row .grid:hover .project-text {
     opacity: 1;
 }
 }.andlev__home .row .project-text {
@@ -449,7 +449,7 @@ span.text-content {
     bottom: 40px;
     left: 40px;
     display: block;
-    font-family:"aktiv-grotesk-n3", "aktiv-grotesk";
+    font-family: "aktiv-grotesk-n4",  "aktiv-grotesk";
     opacity: 0;
     transition: all .25s ease-out .1s;
 }
@@ -593,7 +593,8 @@ span.text-content {
     display: inline-block;
     margin: 0 0 25px;
     padding: 0 0 15px;
-    font-family: "aktiv-grotesk-n4",  "aktiv-grotesk";
+    font-family:"aktiv-grotesk-n5", "aktiv-grotesk";
+    font-weight:500;
     font-size: 16px;
     line-height: 25px;
     color: #000;
@@ -608,8 +609,7 @@ span.text-content {
     content: ""}
 .andlev__profile-section p {
     display: block;
-    font-family:"aktiv-grotesk-n3", "aktiv-grotesk";
-    font-weight:300;
+    font-family: "aktiv-grotesk-n4",  "aktiv-grotesk";
     font-size: 14px;
     line-height: 18px;
     color: #999;
@@ -840,9 +840,9 @@ span.text-content {
 }
 .andlev__project h4, .andlev__project p {
     display: block;
-    font-family: "aktiv-grotesk-n4",  "aktiv-grotesk";
+    font-family: "aktiv-grotesk-n3",  "aktiv-grotesk";
     font-size: 14px;
-    font-weight: }
+    font-weight: 300; }
 .andlev__project p {
     line-height: 18px;
     color: #999;
