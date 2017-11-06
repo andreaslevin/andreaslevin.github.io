@@ -54,10 +54,11 @@ a {
 }
 a.link--nonactive {
     opacity: 1;
+    font-weight: 300;
 }
 @media (min-width:768px) {
     a.link--nonactive {
-    opacity: .2;
+    opacity: .3;
 }
 }h1, h3 {
     display: block;
@@ -72,7 +73,7 @@ h1 {
     color: #000;
 }
 h3 {
-    margin-top: 20px;
+    margin-top: 21px;
     font-weight: 300;
     font-style: italic;
     color: #999;
@@ -90,7 +91,7 @@ h3 {
 }
 h3 {
     font-family: "acta-display-i3",  "acta-display";
-     margin-top: 12px;
+     margin-top: 14px;
     font-size: 21px;
 }
 }a {
@@ -458,12 +459,13 @@ span.text-content {
     margin-bottom: 11px;
 }
 .andlev__home .row .project-text-subtitle {
+    font-family: "aktiv-grotesk-n3",  "aktiv-grotesk";
     font-weight: 300;
     color: #666;
 }
 @media (min-width:1025px) {
     .andlev__home .row .project-text-title {
-    font-size: 22px;
+    font-size: 21px;
 }
 .andlev__home .row .project-text-subtitle--white, .andlev__home .row .project-text-title--white {
     color: #fff;
@@ -593,8 +595,8 @@ span.text-content {
     display: inline-block;
     margin: 0 0 25px;
     padding: 0 0 15px;
-    font-family:"aktiv-grotesk-n5", "aktiv-grotesk";
-    font-weight:500;
+    font-family:"aktiv-grotesk-n4", "aktiv-grotesk";
+    font-weight:400;
     font-size: 16px;
     line-height: 25px;
     color: #000;
@@ -609,10 +611,11 @@ span.text-content {
     content: ""}
 .andlev__profile-section p {
     display: block;
-    font-family: "aktiv-grotesk-n4",  "aktiv-grotesk";
+    font-family:"aktiv-grotesk-n3", "aktiv-grotesk";
     font-size: 14px;
     line-height: 18px;
     color: #999;
+    font-weight:300;
 }
 @media (min-width:768px) {
     .andlev__profile-section p {
@@ -625,7 +628,8 @@ span.text-content {
     display: block;
     margin-bottom: 25px;
     padding-bottom: 15px;
-    font-family: "aktiv-grotesk-n4",  "aktiv-grotesk";
+    font-family: "aktiv-grotesk-n3",  "aktiv-grotesk";
+    font-weight:300;
     font-size: 14px;
     line-height: 20px;
     color: #999;
@@ -701,7 +705,7 @@ span.text-content {
 .andlev__profile-section h2 {
     height: 45px;
     margin-right: 164px;
-    font-size: 22px;
+    font-size: 21px;
 }
 .andlev__profile-section h2:after {
     width: 60px;
@@ -835,8 +839,8 @@ span.text-content {
 }
 }.andlev__project h4 {
     margin-bottom: 10px;
-    font-weight: 600;
-    line-height: 22px;
+    font-weight: 400;
+    line-height: 21px;
 }
 .andlev__project h4, .andlev__project p {
     display: block;
@@ -994,14 +998,15 @@ span.text-content {
     content: ""}
 .andlev__project-title span {
     display: block;
-    font-family: "aktiv-grotesk-n4",  "aktiv-grotesk";
+    font-family: "acta-display-i4", "acta-display";
+    font-weight:400;
     font-size: 12px;
     font-style: italic;
     color: #898989;
 }
 @media (min-width:1025px) {
     .andlev__project-title h2 {
-    font-size: 22px;
+    font-size: 21px;
     padding-bottom: 34px;
 }
 .andlev__project-title span {
