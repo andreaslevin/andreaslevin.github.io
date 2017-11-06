@@ -841,8 +841,10 @@ span.text-content {
     margin-bottom: 10px;
     font-weight: 400;
     line-height: 21px;
+    font-family: "aktiv-grotesk-n4",  "aktiv-grotesk";
+
 }
-.andlev__project h4, .andlev__project p {
+.andlev__project p {
     display: block;
     font-family: "aktiv-grotesk-n3",  "aktiv-grotesk";
     font-size: 14px;
