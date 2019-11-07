@@ -67,13 +67,12 @@ a.link--nonactive {
 }
 h1 {
     font-family: "acta-display-n4",  "acta-display";
-     font-size: 44px;
+     font-size: 43px;
     font-weight: 400;
-    letter-spacing: -.8px;
     color: #000;
 }
 h3 {
-    margin-top: 21px;
+    margin-top: 24px;
     font-weight: 300;
     font-style: italic;
     color: #999;
@@ -83,16 +82,16 @@ h3 {
     font-size: 40px;
 }
 h3 {
-    font-size: 20px;
+    font-size: 19px;
 }
 }@media (min-width:1025px) {
     h1 {
-    font-size: 44px;
+    font-size: 43px;
 }
 h3 {
     font-family: "acta-display-i3",  "acta-display";
-     margin-top: 14px;
-    font-size: 21px;
+     margin-top: 19px;
+    font-size: 19px;
 }
 }a {
     text-decoration: none;
@@ -474,7 +473,7 @@ span.text-content {
     .andlev__home .row {
     width: calc(100% - 80px);
     max-width: 1920px;
-    margin: 0 40px 15px;
+    margin: 0 40px 20px;
 }
 }@media (min-width:1025px) {
     .andlev__home .row {
@@ -494,7 +493,7 @@ span.text-content {
     display: block;
     width: 50%}
 .andlev__home .row--half .grid:first-of-type {
-    margin-right: 15px;
+    margin-right: 20px;
 }
 }@media (min-width:1025px) {
     .andlev__home .row--half .grid: first-of-type {
@@ -517,7 +516,7 @@ span.text-content {
     margin-bottom: 0;
 }
 .andlev__home .row--three .grid+.grid-holder, .andlev__home .row--three .grid-holder+.grid {
-    margin-left: 15px;
+    margin-left: 20px;
 }
 .andlev__home .row--three .grid-holder {
     display: -webkit-box;
@@ -583,6 +582,13 @@ span.text-content {
     display: block;
     margin-bottom: 52px;
 }
+
+.andlev__footer-section {
+    display: block;
+    margin-bottom: 52px;
+	margin-top:100px;
+}
+
 .andlev__profile-section--nomargin {
     margin-bottom: 52px;
 }
@@ -601,6 +607,19 @@ span.text-content {
     line-height: 25px;
     color: #000;
 }
+
+.andlev__footer-section h2 {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 25px;
+    padding: 0 0 15px;
+    font-family:"aktiv-grotesk-n4", "aktiv-grotesk";
+    font-weight:400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000;
+}
+
 .andlev__profile-section h2:after {
     position: absolute;
     bottom: 0;
