@@ -3,7 +3,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font: inherit;	
     vertical-align: baseline;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -79,7 +79,7 @@ h3 {
 }
 @media (min-width:768px) {
     h1 {
-    font-size: 40px;
+    font-size: 43px;
 }
 h3 {
     font-size: 19px;
