@@ -342,6 +342,7 @@ span.text-content {
     font-weight: 400;
     line-height: 25px;
 }
+
 @media (min-width:768px) {
     .andlev__footer-project span {
     font-size: 12px;
