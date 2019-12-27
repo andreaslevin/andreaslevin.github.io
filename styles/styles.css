@@ -101,12 +101,22 @@ h3 {
     h1 {
     font-size: 43px;
 }
+}
+    
+@media (min-width:1480px) {
+    h1 {
+    font-size: 44px;
+} 
+}
+
+    
+
 h3 {
     font-family: "acta-display-i3",  "acta-display";
      margin-top: 19px;
     font-size: 19px;
 }
-}a {
+a {
     text-decoration: none;
 }
 .row:after, .row:before {
