@@ -1,7 +1,56 @@
 <!DOCTYPE html>
 <html>
+      <head>
+      <title>Johan Levin</title>
+      <style>
+          
+            body {
+              background:#000000;
+            }
+          
+          
+          .blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+          
+          h1 {
+              font-family: Garamond, serif;
+              font-weight: 100;
+              font-size: 80px;
+          }
+          
+          p {
+            font-family: Garamond, serif;
+               font-weight: 100;
+
+          }
+          
+          .content {
+            text-align: center;
+            color: white;
+            padding: 1em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+            }
+          
+          
+   </style>
+  </head>
+ 
 <body>
+    <div class="content">
 <h1>Johan Levin</h1>
-<p>Inte son till skådespelare Gustav Levin.</p>
+        <div class="blink_me">Inte son till skådespelare Gustav Levin.</div>
+        </div>
+
 </body>
 </html>
